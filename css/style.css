@@ -48,3 +48,22 @@ p:nth-child(2n)
   text-align: justify;
   margin-bottom: 16px;
 }
+
+.chapter_separator {
+  border: none; /* Убираем границу для браузера Firefox */
+  background-color: silver; /* Цвет линии для браузера Firefox и Opera */
+  height: 7px; /* Толщина линии */
+  width: 75%;
+  /* margin: 16px 0; */
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+
+.gitignore {
+  text-align: justify;
+}
+
+.attention {
+  font-weight: bold;
+}
